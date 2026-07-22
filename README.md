@@ -107,8 +107,11 @@ Système hybride Arduino et Java qui surveille la posture, rythme les sessions d
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=andry-ramparison&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=E63946&icon_color=E63946" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=andry-ramparison&theme=radical&hide_border=true&background=0D1117&ring=E63946&fire=E63946" width="48%" />
+<!--START_SECTION:metrics-->
+<img src="./github-metrics.svg" alt="Statistiques GitHub" width="100%" />
+<!--END_SECTION:metrics-->
+
+<sub>Généré automatiquement chaque jour par une GitHub Action (voir <code>.github/workflows/metrics.yml</code>) — aucun service tiers appelé au chargement de la page.</sub>
 
 </div>
 
