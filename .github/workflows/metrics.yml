@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # déclenchement manuel possible depuis l'onglet Actions
   push:
     branches:
-      - main
+      - master
 
 jobs:
   generation-metrics:
