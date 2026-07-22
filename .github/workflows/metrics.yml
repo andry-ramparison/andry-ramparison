@@ -40,7 +40,7 @@ jobs:
 
           # Palette : fond sombre, accent rouge
           config_theme: dark
-          "config_colors": |
+          config_colors: |
             0D1117
             E63946
             E63946
