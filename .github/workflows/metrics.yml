@@ -34,13 +34,9 @@ jobs:
 
           plugin_lines: yes
 
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
           # Palette : fond sombre, accent rouge
           config_theme: dark
-          config_colors: |
+          "config_colors": |
             0D1117
             E63946
             E63946
