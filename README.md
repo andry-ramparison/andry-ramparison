@@ -1,24 +1,18 @@
-<div align="center">
-
 # Andry Ramparison
 
-### Étudiant en Informatique · Développeur C++/Qt & Full-Stack
+## Étudiant en Informatique · Développeur C++/Qt & Full-Stack
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=E63946&center=true&vCenter=true&width=600&lines=Syst%C3%A8mes+bas-niveau+%7C+C+%2F+C%2B%2B+%2F+Qt;Applications+full-stack+%7C+Python+%2F+Java;Architecture+propre%2C+zero+compromis)
-
-</div>
-
-<br>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Syst%C3%A8mes+bas-niveau+%7C+C+%2F+C%2B%2B+%2F+Qt;Applications+full-stack+%7C+Python+%2F+React;Sites+React+%7C+Applications+web+modernes;Architecture+propre%2C+zero+compromis)
 
 ## À propos
 
-Étudiant en 2ᵉ année de Licence en Informatique (Antananarivo, Madagascar), je construis des projets qui vont du système bas-niveau (monitoring Linux, gestion d'utilisateurs, capteurs embarqués) aux applications full-stack et d'analyse de données. J'accorde une importance particulière à l'architecture logicielle rigoureuse (MVC strict, SOLID, encapsulation) et à une identité visuelle soignée et cohérente sur tous mes projets.
+Étudiant en 2ᵉ année de Licence en Informatique (Antananarivo, Madagascar), je construis des projets de systèmes bas-niveau, d'applications full-stack et d'analyse de données. J'accorde une importance particulière à l'architecture logicielle rigoureuse (MVC strict, SOLID, encapsulation) et à une identité visuelle soignée et cohérente sur tous mes projets.
 
 ```txt
 class Developpeur {
 private:
     string   langage_prefere   = "C++";
-    vector<string> stack       = {"Qt", "C", "Python", "Java", "Neo4j", "Flask"};
+    vector<string> stack       = {"Qt", "C", "Python", "React", "Neo4j", "Flask"};
     bool     tolere_les_TODO   = false;
 
 public:
@@ -28,16 +22,11 @@ public:
 };
 ```
 
-<br>
-
 ## Projets phares
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
 ### AroNet-Global
-**Analyse de réseaux criminels**
+
+#### Analyse de réseaux criminels
 
 Outil d'analyse de réseaux avec Neo4j : centralité d'intermédiarité, détection de communautés (Louvain), Max-Flow/Min-Cut. Interface Streamlit avec traitement en arrière-plan et visualisation temps réel.
 
@@ -45,11 +34,9 @@ Outil d'analyse de réseaux avec Neo4j : centralité d'intermédiarité, détect
 
 [Voir le dépôt](https://github.com/andry-ramparison/AroNet-Global)
 
-</td>
-<td width="33%" valign="top">
-
 ### Shield-OS
-**Monitoring système et cybersécurité**
+
+#### Monitoring système et cybersécurité
 
 Solution multi-couche de supervision Linux : moteur d'extraction bas-niveau en C, application de bureau native Qt5, et dashboard web Flask en temps réel avec visualisation Chart.js. Esthétique Cyber-HUD sombre.
 
@@ -57,41 +44,26 @@ Solution multi-couche de supervision Linux : moteur d'extraction bas-niveau en C
 
 [Voir le dépôt](https://github.com/andry-ramparison/Shield-OS)
 
-</td>
-<td width="33%" valign="top">
+### ChefClaude
 
-### Bureau Intelligent
-**Espace de travail connecté**
+#### Générateur de recettes assisté par IA
 
-Système hybride Arduino et Java qui surveille la posture, rythme les sessions de travail (méthode travail/pause) et détecte la présence de l'utilisateur, avec historique des sessions en base SQLite.
+Application web qui transforme une liste d'ingrédients en idées de recettes personnalisées. L'interface React 19 envoie la demande à l'API Hugging Face, qui utilise le modèle Mixtral-8x7B-Instruct pour générer les recettes.
 
-`Arduino` `Java (JavaFX/Swing)` `SQLite` `Série USB`
+`React 19` `Hugging Face API` `Mixtral 8x7B`
 
-[Voir le dépôt](https://github.com/andry-ramparison/BureauIntelligent)
-
-</td>
-</tr>
-</table>
-
-<br>
+[Voir le dépôt](https://github.com/parson-git/ChefClaude)
 
 ## Stack technique
-
-<div align="center">
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
-<br>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## Principes de développement
 
@@ -99,26 +71,14 @@ Système hybride Arduino et Java qui surveille la posture, rythme les sessions d
 - **Zéro dette technique** : pas de placeholders, pas de TODO, pas de `setStyleSheet` inline
 - **Code source en français** : identifiants et commentaires cohérents dans tous les projets
 - **Qt sans fichiers `.ui`** : construction programmatique uniquement
-- **Systèmes hybrides** : intégration matériel/logiciel (Arduino, capteurs) et multi-couches (bas-niveau C, applications natives, interfaces web)
-
-<br>
+- **Architecture multi-couches** : systèmes bas-niveau en C, applications natives et interfaces web
 
 ## Statistiques GitHub
 
-<div align="center">
-
 <!--START_SECTION:metrics-->
-<img src="./github-metrics.svg" alt="Statistiques GitHub" width="100%" />
+![Statistiques GitHub](./github-metrics.svg)
 <!--END_SECTION:metrics-->
 
-<sub>Généré automatiquement chaque jour par une GitHub Action (voir <code>.github/workflows/metrics.yml</code>) — aucun service tiers appelé au chargement de la page.</sub>
-
-</div>
-
-<br>
-
-<div align="center">
+*Généré automatiquement chaque jour par une GitHub Action (voir `.github/workflows/metrics.yml`) — aucun service tiers appelé au chargement de la page.*
 
 *Construit ligne par ligne, avec rigueur.*
-
-</div>
